@@ -1,0 +1,35 @@
+{
+  "name": "jwt-auth_backend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000J\u0000W\u0000T\u0000-\u0000A\u0000u\u0000t\u0000h\u0000_\u0000B\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fachrulmustofa20/JWT-Auth_Backend.git"
+  },
+  "keywords": [
+    "JWT",
+    "Auth"
+  ],
+  "author": "fachrul mustofa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fachrulmustofa20/JWT-Auth_Backend/issues"
+  },
+  "homepage": "https://github.com/Fachrulmustofa20/JWT-Auth_Backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.9.0"
+  }
+}
